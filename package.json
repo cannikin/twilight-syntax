@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "private": true,
   "description": "Twilight syntax theme for GitHub's Atom IDE",
-  "repository": "https://github.com/atom/twilight-syntax",
+  "repository": "https://github.com/cannikin/twilight-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
