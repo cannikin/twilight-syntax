@@ -1,3 +1,4 @@
-# twilight theme
+twilight-syntax
+===============
 
-A short description of your theme.
+Twilight theme for GitHub's Atom IDE.
