@@ -1,33 +1,35 @@
-.editor .wrap-guide,
-:host .wrap-guide {
-  background-color: #ffffff;
-  opacity: 0.07;
-}
+atom-text-editor, :host {
 
-.editor .indent-guide,
-:host .indent-guide {
-  opacity: 0.1;
-}
-
-.editor, .editor .gutter,
-:host, :host .gutter {
   background-color: #141414;
   color: #F8F8F8;
-}
 
-.editor.is-focused .cursor,
-:host(.is-focused) .cursor {
-  border-color: #A7A7A7;
-}
+  .wrap-guide {
+    background-color: #ffffff;
+    opacity: 0.07;
+  }
 
-.editor.is-focused .selection .region,
-:host(.is-focused) .selection .region {
-  background-color: rgba(221, 240, 255, 0.2);
-}
+  .indent-guide {
+    opacity: 0.1;
+  }
 
-.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line,
-:host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
-  background-color: rgba(166, 148, 66, 0);
+  .gutter {
+    background-color: #141414;
+    color: #F8F8F8;
+  }
+
+  &.is-focused {
+    .cursor {
+      border-color: #A7A7A7;
+    }
+
+    .selection .region {
+      background-color: rgba(221, 240, 255, 0.2);
+    }
+    .line-number.cursor-line-no-selection, .line.cursor-line {
+      background-color: rgba(166, 148, 66, 0);
+    }
+  }
+
 }
 
 .comment {
